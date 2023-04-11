@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_home_roadmaps",
+  "info": {
+    "displayName": "roadmap",
+    "icon": "bacon",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "timeline": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home.timeline"
+    },
+    "media": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -2,17 +2,9 @@
   "collectionName": "components_footer_link1s",
   "info": {
     "displayName": "link1",
-    "icon": "align-justify"
+    "icon": "align-justify",
+    "description": ""
   },
   "options": {},
-  "attributes": {
-    "title": {
-      "type": "string"
-    },
-    "items": {
-      "type": "component",
-      "repeatable": true,
-      "component": "global.cta"
-    }
-  }
+  "attributes": {}
 }

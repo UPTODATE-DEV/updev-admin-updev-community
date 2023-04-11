@@ -13,12 +13,6 @@
     "color": {
       "type": "string"
     },
-    "items": {
-      "displayName": "items",
-      "type": "component",
-      "repeatable": true,
-      "component": "team.items"
-    },
     "description": {
       "type": "text"
     }

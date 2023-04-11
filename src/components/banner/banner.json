@@ -11,27 +11,9 @@
       "type": "string"
     },
     "description": {
-      "type": "text"
+      "type": "string"
     },
-    "media": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images"
-      ]
-    },
-    "button": {
-      "type": "component",
-      "repeatable": false,
-      "component": "global.cta"
-    },
-    "video": {
-      "type": "component",
-      "repeatable": false,
-      "component": "global.cta"
-    },
-    "color": {
+    "subTitle": {
       "type": "string"
     }
   }

@@ -26,37 +26,6 @@
         }
       }
     },
-    "aboutUs": {
-      "displayName": "aboutUs",
-      "type": "component",
-      "repeatable": false,
-      "component": "home.about-us",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
-    "features": {
-      "type": "component",
-      "repeatable": false,
-      "component": "achievement.achievement",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
-    "whyChooseUs": {
-      "type": "component",
-      "repeatable": false,
-      "component": "why-choose-us.why-choose-us",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
     "partners": {
       "type": "component",
       "repeatable": false,
@@ -66,49 +35,6 @@
           "localized": true
         }
       }
-    },
-    "values": {
-      "type": "component",
-      "repeatable": false,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "home.value"
-    },
-    "valuesItems": {
-      "displayName": "valuesItems",
-      "type": "component",
-      "repeatable": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "values.values-items"
-    },
-    "timeline": {
-      "displayName": "Timeline",
-      "type": "component",
-      "repeatable": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "home.timeline"
-    },
-    "team": {
-      "displayName": "Team",
-      "type": "component",
-      "repeatable": false,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "home.team"
     },
     "company": {
       "displayName": "footer",
@@ -121,8 +47,8 @@
       },
       "component": "home.footer"
     },
-    "footerLinks1": {
-      "displayName": "link1",
+    "roadmap": {
+      "displayName": "roadmap",
       "type": "component",
       "repeatable": false,
       "pluginOptions": {
@@ -130,9 +56,10 @@
           "localized": true
         }
       },
-      "component": "footer.link1"
+      "component": "home.roadmap"
     },
-    "footerLinks2": {
+    "projects": {
+      "displayName": "projects",
       "type": "component",
       "repeatable": false,
       "pluginOptions": {
@@ -140,9 +67,10 @@
           "localized": true
         }
       },
-      "component": "footer.link1"
+      "component": "home.projects"
     },
-    "footerLinks3": {
+    "community": {
+      "displayName": "community",
       "type": "component",
       "repeatable": false,
       "pluginOptions": {
@@ -150,18 +78,17 @@
           "localized": true
         }
       },
-      "component": "footer.link1"
+      "component": "home.community"
     },
-    "RS": {
-      "displayName": "RS",
+    "footer": {
       "type": "component",
-      "repeatable": false,
+      "repeatable": true,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "component": "footer.rs"
+      "component": "global.cta"
     }
   }
 }

@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_home_communities",
+  "info": {
+    "displayName": "community",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "card": {
+      "displayName": "card",
+      "type": "component",
+      "repeatable": false,
+      "component": "community.card"
+    },
+    "RS": {
+      "displayName": "RS",
+      "type": "component",
+      "repeatable": true,
+      "component": "community.rs"
+    },
+    "caption": {
+      "type": "string"
+    },
+    "count": {
+      "type": "string"
+    },
+    "media": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

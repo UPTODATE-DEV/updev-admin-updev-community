@@ -1,8 +1,8 @@
 {
-  "collectionName": "components_home_partners",
+  "collectionName": "components_community_cards",
   "info": {
-    "displayName": "partners",
-    "icon": "arrow-alt-circle-left",
+    "displayName": "card",
+    "icon": "anchor",
     "description": ""
   },
   "options": {},
@@ -13,13 +13,15 @@
     "description": {
       "type": "text"
     },
-    "medias": {
-      "type": "media",
-      "multiple": true,
-      "required": false,
+    "link": {
+      "type": "string"
+    },
+    "media": {
       "allowedTypes": [
         "images"
-      ]
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
