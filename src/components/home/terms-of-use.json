@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_home_terms_of_uses",
+  "info": {
+    "displayName": "Terms of use"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

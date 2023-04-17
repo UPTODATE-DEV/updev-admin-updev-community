@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_home_how_to_become_a_moderators",
+  "info": {
+    "displayName": "How to become a Moderator"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

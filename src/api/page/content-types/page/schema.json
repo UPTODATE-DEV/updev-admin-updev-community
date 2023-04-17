@@ -1,0 +1,75 @@
+{
+  "kind": "singleType",
+  "collectionName": "pages",
+  "info": {
+    "singularName": "page",
+    "pluralName": "pages",
+    "displayName": "pages",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "codeOfConduct": {
+      "displayName": "Code of Conduct",
+      "type": "component",
+      "repeatable": false,
+      "component": "home.code-of-conduct",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "privacyPolicy": {
+      "displayName": "Privacy Policy",
+      "type": "component",
+      "repeatable": false,
+      "component": "home.privacy-policy",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "termsOfUse": {
+      "displayName": "Terms of use",
+      "type": "component",
+      "repeatable": false,
+      "component": "home.terms-of-use",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "howToContrubuite": {
+      "displayName": "How to contrubuite",
+      "type": "component",
+      "repeatable": false,
+      "component": "home.how-to-contrubuite",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "howToBecomeModerator": {
+      "displayName": "How to become a Moderator",
+      "type": "component",
+      "repeatable": false,
+      "component": "home.how-to-become-a-moderator",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

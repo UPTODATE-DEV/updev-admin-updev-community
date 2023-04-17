@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_home_code_of_conducts",
+  "info": {
+    "displayName": "Code of Conduct"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    }
+  }
+}
